@@ -1,8 +1,8 @@
-package main
+package returnme
 import (
   "fmt"
 )
 
-func main() {
-  fmt.Println("ASDF")
+func returnme (s string) string {
+  return s
   }
